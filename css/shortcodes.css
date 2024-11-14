@@ -30,8 +30,8 @@
  Title
 ------------------------*/
 .theme-title p { font-size: 16px; margin-bottom: 0; font-weight: 500; line-height: 30px;}
-.theme-title h6 { position: relative; display: inline-block; font-weight: 700; text-transform: uppercase; margin-bottom: 10px; -webkit-text-fill-color: transparent; background-image: linear-gradient(135deg, var(--theme-primary-color), var(--theme-secondary-color) 87%); -webkit-background-clip: text; background-clip: text; }
 .theme-title h2 { margin-bottom: 15px; }
+.theme-title h6 { position: relative; display: inline-block; font-weight: 700; text-transform: uppercase; margin-bottom: 10px; -webkit-text-fill-color: transparent; background-image: linear-gradient(45deg, #edb106, #b20d0c); -webkit-background-clip: text; background-clip: text; }
 
 
 /* ------------------------
@@ -47,9 +47,9 @@
 Button
 ------------------------*/
 .primary-btn, .white-btn{ box-shadow: none; border: none; overflow: hidden; position: relative; display: inline-block; cursor: pointer; padding: 15px 40px; font-weight: 500; font-size: 18px; border-radius: 8px;}
-a.primary-btn, .primary-btn { transition: all 0.6s; background-image: linear-gradient(135deg, var(--theme-primary-color), var(--theme-secondary-color)); color: var(--theme-white-color); }
+a.primary-btn, .primary-btn { transition: all 0.6s; background-image: linear-gradient(45deg, #edb106, #b20d0c); color: var(--theme-white-color); }
 a.primary-btn:hover, .primary-btn:hover, a.primary-btn:focus, .primary-btn:focus { background-image: linear-gradient(135deg, var(--theme-secondary-color), var(--theme-primary-color)); color: var(--theme-white-color); }
-a.white-btn, .white-btn { transition: all 0.6s; background: var(--theme-white-color); color: var(--theme-text-dark-color); }
+a.white-btn, .white-btn { transition: all 0.6s; background: linear-gradient(45deg, #edb106, #b20d0c); color: white; }
 a.white-btn:hover, .white-btn:hover, a.white-btn:focus, .white-btn:focus { background-image: linear-gradient(135deg, var(--theme-primary-color), var(--theme-secondary-color)); color: var(--theme-white-color); }
 
 .rounded-button { display: flex; width: 80px; height: 80px; justify-content: center; align-items: center; border:1px solid var(--theme-border-light-color); border-radius: 50%; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
@@ -273,8 +273,7 @@ a.white-btn:hover, .white-btn:hover, a.white-btn:focus, .white-btn:focus { backg
 .testimonial.style-1 .testimonial-img { text-align: center; position: relative; flex-shrink: 0; width: 30%; }
 .testimonial.style-1 .testimonial-img img { border-radius: 100% !important; }
 .testimonial.style-1 .testimonial-content { padding-left: 60px; flex-shrink: 1; border-left: 1px solid var(--theme-border-light-color); margin-left: 60px; }
-.testimonial.style-1 .testimonial-quote i { background-image: linear-gradient(135deg, var(--theme-primary-color), var(--theme-secondary-color)); font-size: 30px; display: inline-block; line-height: 1; color: var(--theme-white-color); border-radius: 100%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; }
-
+.testimonial.style-1 .testimonial-quote i { background-image: linear-gradient(45deg, #edb106, #b20d0c); font-size: 30px; display: inline-block; line-height: 1; color: var(--theme-white-color); border-radius: 100%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; }
 
 /* ------------------------
  Marquee Text

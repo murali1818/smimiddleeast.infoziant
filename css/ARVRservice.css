@@ -1,12 +1,5 @@
 /* General Styles */
 
-.heading-servies {
-    font-weight: bold;
-    background: linear-gradient(90deg, #edb106 0%, #b20d0c 50%, #1c8289 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
 
 
 .services-heading {

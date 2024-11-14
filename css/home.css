@@ -28,12 +28,7 @@
   .dropdown-submenu:hover > .dropdown-menu-sub {
     display: block;
   }
-  .highlight{
-    background: linear-gradient(90deg, #edb106 0%, #b20d0c 50%, #1c8289 100%);
-  -webkit-background-clip: text;  /* For Webkit browsers (Chrome, Safari) */
-  background-clip: text;  /* For other browsers that support background-clip on text */
-  color: transparent;
-  }
+  
   .h2-abt{
     color: black;
   }
@@ -78,14 +73,24 @@
     overflow: hidden;
   }
   
-  .tabs-tabs {
+  .highlight{
+    background: linear-gradient(45deg, #edb106, #b20d0c);
+  -webkit-background-clip: text;  /* For Webkit browsers (Chrome, Safari) */
+  background-clip: text;  /* For other browsers that support background-clip on text */
+  color: transparent;
+  }
+ 
+.tabs-tabs {
     position: relative;
     width: 100%;
     height: 60px;
     display: flex;
-    background: linear-gradient(90deg, #edb106 0%, #b20d0c 50%, #1c8289 100%);
+    background: linear-gradient(45deg, #edb106, #b20d0c);
     justify-content: center;
     align-items: center;
+  }
+  .about-section{
+    background-color: white;
   }
   
   .tab-tabs {
