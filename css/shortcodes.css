@@ -175,7 +175,7 @@ a.white-btn:hover, .white-btn:hover, a.white-btn:focus, .white-btn:focus { backg
 .portfolio-center .owl-item { transform: scale(0.9); opacity: 0.5; }
 .portfolio-center .owl-item.center.active { transform: scale(1); z-index: 99; opacity: 1; }
 
-.portfolio-item.style-2 { border-bottom: 1px solid var(--theme-border-light-color); padding-bottom: 30px; margin-bottom: 30px; }
+.portfolio-item.style-2 { border-bottom: 1px solid var(--theme-border-light-color); padding-bottom: 10px; margin-bottom: 30px; }
 .portfolio-item.style-2:last-child { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
 .portfolio-list { position: relative; padding-left: 70%; }
 .portfolio-list .portfolio-item.style-2 .portfolio-image { position: absolute; top: 50%; left: 0; width: 60%; opacity: 0; -webkit-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; overflow: inherit; transform: translateY(-50%); padding-right: 100px; padding-bottom: 100px; }
@@ -189,6 +189,7 @@ a.white-btn:hover, .white-btn:hover, a.white-btn:focus, .white-btn:focus { backg
 .portfolio-item.style-3 .portfolio-desc { padding-top: 30px; }
 .portfolio-item.style-3 .portfolio-desc .portfolio-cat a { color: var(--theme-primary-color);}
 .portfolio-item.style-3 .portfolio-desc h4 a { color: var(--theme-white-color); }
+
 
 .portfolio-list.portfolio-six { padding-left: 0; }
 .portfolio-list.portfolio-six .portfolio-item.style-2 { border-bottom: none; padding-bottom: 0; margin-bottom: 50px; }
