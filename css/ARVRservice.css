@@ -34,7 +34,7 @@
 /* Show the paragraph on hover */
 .featured-item:hover .featured-desc p {
   opacity: 1;
-  max-height: 100px; /* Adjust as needed for full visibility */
+  max-height: 300px; /* Adjust as needed for full visibility */
 }
 
 
