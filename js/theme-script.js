@@ -373,3 +373,54 @@ $(window).on('load', function() {
     preloader();
 });
 
+// tabs script
+const tabsTabs = document.querySelectorAll('.tab-tabs');
+const contentTabs = document.querySelector('.content-tabs');
+const activeTabIndicator = document.querySelector('.active-tabs');
+function setActiveTab(index) {
+    contentTabs.style.transform = `translateX(-${index * 100}%)`;
+    const tab = tabsTabs[index];
+    activeTabIndicator.style.width = `${tab.offsetWidth}px`;
+    activeTabIndicator.style.left = `${tab.offsetLeft}px`;
+}
+ 
+tabsTabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => setActiveTab(index));
+});
+ 
+document.addEventListener('DOMContentLoaded', () => setActiveTab(0));
+ 
+const currentYear = new Date().getFullYear();
+document.querySelector('.currentDate').textContent = currentYear;
+ 
+// navbar toggle
+document.addEventListener("DOMContentLoaded", function () {
+  const submenuClasses = [".submenu-digital", ".submenu-it", ".submenu-development", ".submenu-analytics"];
+ 
+  submenuClasses.forEach((submenuClass) => {
+    const submenuToggle = document.querySelector(`.dropdown-submenu > .dropdown-item[href="digital-marketing.html"][href*="${submenuClass}"]`);
+    const submenu = document.querySelector(submenuClass);
+ 
+    if (submenuToggle && submenu) {
+      submenuToggle.addEventListener("click", function (event) {
+        event.preventDefault();
+        const isShown = submenu.classList.contains("show");
+ 
+        submenuClasses.forEach((cls) => {
+          document.querySelector(cls)?.classList.remove("show");
+        });
+ 
+        if (!isShown) {
+          submenu.classList.add("show");
+        }
+      });
+    }
+  });
+  document.addEventListener("click", function (event) {
+    if (!event.target.closest(".dropdown-menu")) {
+      submenuClasses.forEach((cls) => {
+        document.querySelector(cls)?.classList.remove("show");
+      });
+    }
+  });
+});
