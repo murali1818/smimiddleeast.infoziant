@@ -19,9 +19,8 @@
 /* Show the paragraph on hover */
 .featured-item:hover .featured-desc p {
   opacity: 1;
-  max-height: 100px; /* Adjust as needed for full visibility */
+  max-height: 500px; /* Adjust as needed for full visibility */
 }
-
 
 .featured-item.style-4 {
     position: relative;
@@ -160,7 +159,7 @@
 /* ---- service style-1 ----*/
 .service-item1.style-1 { border-bottom: 1px solid var(--theme-border-light-color); padding-bottom: 30px; margin-bottom: 30px; display: flex; align-items: center; justify-content: space-between; }
 .service-item1.style-1:last-child { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
-.service-list1 { position: relative; overflow: hidden; padding-left: 40%; padding-bottom: 0px; }
+.service-list1 { position: relative; overflow: hidden; padding-left: 43%; padding-bottom: 0px; }
 .service-list1 .service-item1.style-1 .service-image { position: absolute; top: 50px; left: 0px; width: 450px; opacity: 0; -webkit-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; }
 .service-item1.style-1 .service-image img { border-radius: 100px }
 .service-list1 .service-item1.style-1.active .service-image { opacity: 1; top: 0px; }
