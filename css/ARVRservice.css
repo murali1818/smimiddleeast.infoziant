@@ -26,9 +26,9 @@
 
 /* Show the paragraph on hover */
 .featured-item:hover .featured-desc p {
-  opacity: 1;
-  max-height: 300px; /* Adjust as needed for full visibility */
-}
+    opacity: 1;
+    max-height: 500px; /* Adjust as needed for full visibility */
+  }
 
 
 .featured-item.style-4 {
